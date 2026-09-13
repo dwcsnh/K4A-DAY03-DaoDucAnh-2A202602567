@@ -47,9 +47,7 @@
         "title": "Version Control Systems",
         "description": "Learn how to use version control systems to manage code.",
         "order": 2,
-        "prerequisites": [
-          "lesson_01"
-        ],
+        "prerequisites": ["lesson_01"],
         "status": "NOT_STARTED",
         "resources": [
           {
@@ -79,9 +77,7 @@
         "title": "Continuous Integration (CI)",
         "description": "Explore the concept of continuous integration and its tools.",
         "order": 3,
-        "prerequisites": [
-          "lesson_02"
-        ],
+        "prerequisites": ["lesson_02"],
         "status": "NOT_STARTED",
         "resources": [
           {
@@ -111,11 +107,7 @@
         "title": "Checkpoint 1",
         "description": "Validate progress across Introduction to DevOps; Version Control Systems; Continuous Integration (CI) for the devops roadmap.",
         "order": 4,
-        "prerequisites": [
-          "lesson_01",
-          "lesson_02",
-          "lesson_03"
-        ],
+        "prerequisites": ["lesson_01", "lesson_02", "lesson_03"],
         "status": "LOCKED",
         "resources": [],
         "learningObjectives": [],
@@ -127,9 +119,7 @@
         "title": "Continuous Deployment (CD)",
         "description": "Learn about continuous deployment and how to automate releases.",
         "order": 5,
-        "prerequisites": [
-          "checkpoint_01"
-        ],
+        "prerequisites": ["checkpoint_01"],
         "status": "NOT_STARTED",
         "resources": [
           {
@@ -159,9 +149,7 @@
         "title": "Infrastructure as Code (IaC)",
         "description": "Introduction to managing infrastructure using code.",
         "order": 6,
-        "prerequisites": [
-          "lesson_04"
-        ],
+        "prerequisites": ["lesson_04"],
         "status": "NOT_STARTED",
         "resources": [
           {
@@ -191,9 +179,7 @@
         "title": "Monitoring and Logging",
         "description": "Understand the importance of monitoring and logging in DevOps.",
         "order": 7,
-        "prerequisites": [
-          "lesson_05"
-        ],
+        "prerequisites": ["lesson_05"],
         "status": "NOT_STARTED",
         "resources": [
           {
@@ -223,11 +209,7 @@
         "title": "Checkpoint 2",
         "description": "Validate progress across Continuous Deployment (CD); Infrastructure as Code (IaC); Monitoring and Logging for the devops roadmap.",
         "order": 8,
-        "prerequisites": [
-          "lesson_04",
-          "lesson_05",
-          "lesson_06"
-        ],
+        "prerequisites": ["lesson_04", "lesson_05", "lesson_06"],
         "status": "LOCKED",
         "resources": [],
         "learningObjectives": [],
@@ -239,9 +221,7 @@
         "title": "Collaboration and Communication",
         "description": "Learn how to foster collaboration within DevOps teams.",
         "order": 9,
-        "prerequisites": [
-          "checkpoint_02"
-        ],
+        "prerequisites": ["checkpoint_02"],
         "status": "NOT_STARTED",
         "resources": [
           {
@@ -330,5 +310,1550 @@
     ],
     "createdAt": "2026-09-13T04:52:05.956224+00:00",
     "updatedAt": "2026-09-13T04:52:20.802943+00:00"
+  },
+  "roadmap_73a1a68972": {
+    "roadmapId": "roadmap_73a1a68972",
+    "title": "AWS Cloud Fundamentals Roadmap",
+    "topic": "AWS Cloud",
+    "goal": "I want to learn AWS from beginner to intermediate and focus on practical cloud fundamentals.",
+    "level": "BEGINNER",
+    "status": "DRAFT",
+    "constraints": {
+      "hoursPerDay": 1.0,
+      "deadlineWeeks": 6
+    },
+    "nodes": [
+      {
+        "id": "lesson_01",
+        "type": "LESSON",
+        "title": "Introduction to Cloud Computing",
+        "description": "Understanding the basics of cloud computing is essential for grasping AWS services.",
+        "order": 1,
+        "prerequisites": [],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Introduction to Cloud Computing on AWS for Beginners [2026]",
+            "url": "https://www.udemy.com/course/introduction-to-cloud-computing-on-amazon-aws-for-beginners",
+            "type": "ARTICLE",
+            "description": "## Requirements\n\n## Description\n\nThis beginner-friendly Introduction to Cloud Computing on AWS course takes you from the AWS basics to becoming a competent AWS cloud practitioner. With expert instruction and engaging content, you'll learn general cloud computing concepts and AWS ",
+            "source": "www.udemy.com"
+          },
+          {
+            "title": "Introduction to AWS for Cloud Beginners | Coursera",
+            "url": "https://www.coursera.org/learn/introduction-to-aws-for-cloud-beginners",
+            "type": "ARTICLE",
+            "description": "Get Coursera Plus\n\n  ![₹13,999 ₹7,499/year\n  [Microsoft, Google, Meta, and Stanford logos]\n  ](\n Coursera for teams logo\n\n  ### Start with easy savings for hard-working teams\n\n  Save 30% today\n\n  30% off team training\n\n## Frequently asked questions\n\nAWS (Amazon Web Services) is a",
+            "source": "www.coursera.org"
+          }
+        ],
+        "learningObjectives": [
+          "Define cloud computing and its benefits.",
+          "Identify different cloud service models (IaaS, PaaS, SaaS).",
+          "Understand deployment models (public, private, hybrid)."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_02",
+        "type": "LESSON",
+        "title": "Getting Started with AWS",
+        "description": "Familiarizing yourself with the AWS Management Console is crucial for navigating AWS services.",
+        "order": 2,
+        "prerequisites": ["lesson_01"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Getting Started with AWS Cloud Essentials",
+            "url": "https://aws.amazon.com/getting-started/cloud-essentials",
+            "type": "ARTICLE",
+            "description": "The AWS Cloud encompasses a broad set of global cloud-based products that includes compute, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications: on-demand, available in seconds, with pay-as-you-go pricin",
+            "source": "aws.amazon.com"
+          },
+          {
+            "title": "Getting Started With AWS Cloud | Step-by-Step Guide",
+            "url": "https://www.youtube.com/watch?v=CjKhQoYeR4Q",
+            "type": "ARTICLE",
+            "description": "# Getting Started With AWS Cloud | Step-by-Step Guide\n## Travis Media\n330000 subscribers\n5418 likes\n\n### Description\n203422 views\nPosted: 30 Apr 2023\nAll developers and inspiring developers should be cloud competent. This means creating an account and getting your hands dirty. \n\n",
+            "source": "www.youtube.com"
+          }
+        ],
+        "learningObjectives": [
+          "Create an AWS account.",
+          "Navigate the AWS Management Console.",
+          "Understand AWS regions and availability zones."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_03",
+        "type": "LESSON",
+        "title": "Core AWS Services Overview",
+        "description": "Learning about core AWS services will provide a foundation for building applications in the cloud.",
+        "order": 3,
+        "prerequisites": ["lesson_02"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Introduction to AWS Core Services | AWS Introduction | Overview of AWS Core Services | What is AWS",
+            "url": "https://www.youtube.com/watch?v=BUKgR26lwvE",
+            "type": "ARTICLE",
+            "description": "In this video, we’ll explore:\n1️⃣ Compute Services – Learn about Amazon EC2, Lambda, and container orchestration with ECS and EKS.\n2️⃣ Storage Services – Discover how Amazon S3, EBS, and EFS make storing and accessing data effortless.\n3️⃣ Database Services – Dive into relational ",
+            "source": "www.youtube.com"
+          },
+          {
+            "title": "AWS Core Services: What You Need To Know - Clarusway",
+            "url": "https://clarusway.com/aws-core-services",
+            "type": "ARTICLE",
+            "description": "AWS cloud services allow different organizations to be more effective in their execution of IT tasks. They can establish secure yet affordable systems for scalable servers, compute solutions, and databases with the power of those services. The Amazon Web Service is a leading clou",
+            "source": "clarusway.com"
+          }
+        ],
+        "learningObjectives": [
+          "Describe key AWS services such as EC2, S3, and RDS.",
+          "Understand the purpose of IAM for security management.",
+          "Identify use cases for each core service."
+        ],
+        "estimatedMinutes": 120
+      },
+      {
+        "id": "checkpoint_01",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 1",
+        "description": "Validate progress across Introduction to Cloud Computing; Getting Started with AWS; Core AWS Services Overview for the AWS Cloud roadmap.",
+        "order": 4,
+        "prerequisites": ["lesson_01", "lesson_02", "lesson_03"],
+        "status": "LOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      },
+      {
+        "id": "lesson_04",
+        "type": "LESSON",
+        "title": "Deploying a Simple Web Application",
+        "description": "Hands-on experience with deploying a web application on AWS solidifies your understanding of AWS services.",
+        "order": 5,
+        "prerequisites": ["checkpoint_01"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Web Application Hosting in the AWS Cloud - DEV Community",
+            "url": "https://dev.to/awsmenacommunity/web-application-hosting-in-the-aws-cloud-19j3",
+            "type": "ARTICLE",
+            "description": "### Consider automated deployment\n\n Amazon Lightsail : Simple app development VPS with everything needed to build a Web app or website. Ideal for simple workloads and quick deployments.\n AWS Elastic Beanstalk : Easy-to-use service for deploying and scaling web apps developed with",
+            "source": "dev.to"
+          },
+          {
+            "title": "The Ultimate Guide to Hosting Web Applications on AWS | Cloud Deployment",
+            "url": "https://www.oneclickitsolution.com/centerofexcellence/devops/complete-guide-to-hosting-web-applications-on-aws-cloud",
+            "type": "ARTICLE",
+            "description": "# The Complete Guide to Hosting Web Applications on AWS Cloud. Here’s a more detailed breakdown of AWS web hosting options, their use cases, estimated pricing and key benefits:. ## Amazon S3 (Static Website Hosting). * **Description:** Amazon S3 (Simple Storage Service) can host ",
+            "source": "www.oneclickitsolution.com"
+          }
+        ],
+        "learningObjectives": [
+          "Set up an EC2 instance.",
+          "Deploy a basic web application on the instance.",
+          "Configure security groups and IAM roles."
+        ],
+        "estimatedMinutes": 150
+      },
+      {
+        "id": "lesson_05",
+        "type": "LESSON",
+        "title": "Data Storage Solutions in AWS",
+        "description": "Understanding data storage options is vital for managing data in the cloud effectively.",
+        "order": 6,
+        "prerequisites": ["lesson_04"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Cloud Storage Services on AWS",
+            "url": "https://aws.amazon.com/products/storage",
+            "type": "ARTICLE",
+            "description": "## Why Cloud Storage on AWS?\n\nMillions of customers use AWS cloud storage services to transform their business, increase agility, reduce costs, and accelerate innovation. Choose from a broad portfolio of storage solutions with deep functionality for storing, accessing, protecting",
+            "source": "aws.amazon.com"
+          },
+          {
+            "title": "AWS Cloud Storage | Amazon Web Services",
+            "url": "https://www.youtube.com/watch?v=aYH-0Fr3ahs",
+            "type": "ARTICLE",
+            "description": "# AWS Cloud Storage | Amazon Web Services\n## Amazon Web Services\n846000 subscribers\n34 likes\n\n### Description\n1561 views\nPosted: 14 Apr 2025\nDiscover why millions of customers use AWS Cloud Storage to transform their business, increase agility, reduce costs, and accelerate innova",
+            "source": "www.youtube.com"
+          }
+        ],
+        "learningObjectives": [
+          "Differentiate between S3, EBS, and EFS.",
+          "Implement data storage solutions for different use cases.",
+          "Understand data lifecycle management in S3."
+        ],
+        "estimatedMinutes": 120
+      },
+      {
+        "id": "lesson_06",
+        "type": "LESSON",
+        "title": "Monitoring and Security in AWS",
+        "description": "Monitoring and securing your AWS environment is critical for maintaining application performance and security.",
+        "order": 7,
+        "prerequisites": ["lesson_05"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Monitoring and Logging - Introduction to AWS Security",
+            "url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/monitoring-and-logging.html",
+            "type": "ARTICLE",
+            "description": "With AWS CloudTrail, you can monitor your AWS deployments in the cloud by getting a history of AWS API calls for your account, including API calls made via the AWS Management Console, the AWS SDKs, the command line tools, and higher-level AWS services. You can also identify which",
+            "source": "docs.aws.amazon.com"
+          },
+          {
+            "title": "Understanding the AWS Cloud Security Model - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/cloud-computing/security-model-of-aws-cloud",
+            "type": "ARTICLE",
+            "description": "Monitoring and Logging: Amazon CloudWatch, coupled with AWS CloudTrail, provides real-time monitoring and logging of AWS resources, among other services. These services offer insight into account events, consuming resources, and security breaches enabling quick detection and resp",
+            "source": "www.geeksforgeeks.org"
+          }
+        ],
+        "learningObjectives": [
+          "Set up CloudWatch for monitoring resources.",
+          "Implement basic security best practices in AWS.",
+          "Understand AWS compliance and shared responsibility model."
+        ],
+        "estimatedMinutes": 120
+      },
+      {
+        "id": "checkpoint_02",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 2",
+        "description": "Validate progress across Deploying a Simple Web Application; Data Storage Solutions in AWS; Monitoring and Security in AWS for the AWS Cloud roadmap.",
+        "order": 8,
+        "prerequisites": ["lesson_04", "lesson_05", "lesson_06"],
+        "status": "LOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      },
+      {
+        "id": "lesson_07",
+        "type": "LESSON",
+        "title": "Cost Management and Optimization",
+        "description": "Learning to manage costs effectively is essential for sustainable cloud usage.",
+        "order": 9,
+        "prerequisites": ["checkpoint_02"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "AWS Cloud Cost Optimization: 5 Proven Strategies",
+            "url": "https://www.harness.io/blog/5-essential-aws-cloud-cost-optimization-strategies",
+            "type": "ARTICLE",
+            "description": "The AWS cost management process involves the following:\n\n1. Cost Visibility: Continuously improving visibility into cloud expenditures to understand spending patterns and identify cost drivers.\n2. Resource Optimization: Selecting and allocating just enough computing power, storag",
+            "source": "www.harness.io"
+          },
+          {
+            "title": "AWS Cloud Cost Optimization: Tools, Strategies, Best Practices",
+            "url": "https://www.cloudzero.com/blog/aws-cost-optimization-tools",
+            "type": "ARTICLE",
+            "description": "Quick answer: AWS cloud cost optimization is the ongoing practice of reducing waste and improving spend efficiency across Amazon Web Services infrastructure, including EC2, S3, RDS, and data transfer. The core levers are rightsizing overprovisioned resources, extending commitment",
+            "source": "www.cloudzero.com"
+          }
+        ],
+        "learningObjectives": [
+          "Understand AWS pricing models.",
+          "Use the AWS Pricing Calculator.",
+          "Implement cost optimization strategies."
+        ],
+        "estimatedMinutes": 90
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge_lesson_01_to_lesson_02",
+        "source": "lesson_01",
+        "target": "lesson_02"
+      },
+      {
+        "id": "edge_lesson_02_to_lesson_03",
+        "source": "lesson_02",
+        "target": "lesson_03"
+      },
+      {
+        "id": "edge_lesson_01_to_checkpoint_01",
+        "source": "lesson_01",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_02_to_checkpoint_01",
+        "source": "lesson_02",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_03_to_checkpoint_01",
+        "source": "lesson_03",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_checkpoint_01_to_lesson_04",
+        "source": "checkpoint_01",
+        "target": "lesson_04"
+      },
+      {
+        "id": "edge_lesson_04_to_lesson_05",
+        "source": "lesson_04",
+        "target": "lesson_05"
+      },
+      {
+        "id": "edge_lesson_05_to_lesson_06",
+        "source": "lesson_05",
+        "target": "lesson_06"
+      },
+      {
+        "id": "edge_lesson_04_to_checkpoint_02",
+        "source": "lesson_04",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_05_to_checkpoint_02",
+        "source": "lesson_05",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_06_to_checkpoint_02",
+        "source": "lesson_06",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_checkpoint_02_to_lesson_07",
+        "source": "checkpoint_02",
+        "target": "lesson_07"
+      }
+    ],
+    "createdAt": "2026-09-13T09:36:51.460647+00:00",
+    "updatedAt": "2026-09-13T09:36:51.460801+00:00"
+  },
+  "roadmap_e8863bf2b5": {
+    "roadmapId": "roadmap_e8863bf2b5",
+    "title": "Docker Learning Roadmap",
+    "topic": "Docker",
+    "goal": "I want to learn Docker from beginner to intermediate so I can containerize and run local projects confidently.",
+    "level": "BEGINNER",
+    "status": "DRAFT",
+    "constraints": {
+      "hoursPerDay": 1.5,
+      "deadlineWeeks": 5
+    },
+    "nodes": [
+      {
+        "id": "lesson_01",
+        "type": "LESSON",
+        "title": "Introduction to Containers",
+        "description": "Understanding the concept of containers and how they differ from traditional virtualization.",
+        "order": 1,
+        "prerequisites": [],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Introduction to Containers and Docker",
+            "url": "https://endjin.com/blog/introduction-to-containers-and-docker",
+            "type": "ARTICLE",
+            "description": "A Docker image is a blueprint containing all configuration settings and dependencies needed for an application. A container is a running instance of that image - you can create multiple containers from the same image, each running independently. [...] Images: The blueprints of ou",
+            "source": "endjin.com"
+          },
+          {
+            "title": "Introduction to Docker: Containers - Medium",
+            "url": "https://johnnymaclean.medium.com/introduction-to-docker-containers-f994be45cccb",
+            "type": "ARTICLE",
+            "description": "Containers are lightweight, standalone, and portable units that encapsulate an application, its dependencies, and runtime configuration.",
+            "source": "johnnymaclean.medium.com"
+          }
+        ],
+        "learningObjectives": [
+          "Explain what containers are and their benefits.",
+          "Differentiate between containers and virtual machines.",
+          "Identify use cases for containerization."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_02",
+        "type": "LESSON",
+        "title": "Getting Started with Docker",
+        "description": "Learn how to install Docker and set up your environment for containerization.",
+        "order": 2,
+        "prerequisites": ["lesson_01"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "GitHub - docker/getting-started: Getting started with Docker · GitHub",
+            "url": "https://github.com/docker/getting-started",
+            "type": "ARTICLE",
+            "description": "# Docker Getting Started Tutorial\n\nThis tutorial was written with the intent of helping folks get up and running with containers and is designed to work with Docker Desktop. While not going too much into depth, it covers the following topics:\n\n Running your first container\n Build",
+            "source": "github.com"
+          },
+          {
+            "title": "Getting Started with Docker — Dockstore documentation",
+            "url": "https://docs.dockstore.org/en/stable/getting-started/getting-started-with-docker.html",
+            "type": "ARTICLE",
+            "description": "Getting Started with Docker\n View page source\n\n# Getting Started with Docker\n\n## Tutorial Goals\n\nThis is the first part of our “Getting Started” tutorial series, where we will walk you through the creation of a tool called BAMstats and publish it onto Dockstore. This particular",
+            "source": "docs.dockstore.org"
+          }
+        ],
+        "learningObjectives": [
+          "Install Docker on your local machine.",
+          "Understand Docker architecture and components.",
+          "Run your first Docker container."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_03",
+        "type": "LESSON",
+        "title": "Docker Images and Dockerfile",
+        "description": "Learn how to create and manage Docker images using Dockerfile.",
+        "order": 3,
+        "prerequisites": ["lesson_02"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Dockerfile Overview",
+            "url": "https://docs.docker.com/build/concepts/dockerfile/",
+            "type": "DOCUMENTATION",
+            "description": "Explains how Dockerfiles are structured and how images are built reproducibly.",
+            "source": "docs.docker.com"
+          },
+          {
+            "title": "Docker Get Started",
+            "url": "https://docs.docker.com/get-started/",
+            "type": "DOCUMENTATION",
+            "description": "A guided introduction to containers, images, and the Docker workflow.",
+            "source": "docs.docker.com"
+          }
+        ],
+        "learningObjectives": [
+          "Understand the structure of a Dockerfile.",
+          "Build custom Docker images.",
+          "Manage images with Docker commands."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "checkpoint_01",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 1",
+        "description": "Validate progress across Introduction to Containers; Getting Started with Docker; Docker Images and Dockerfile for the Docker roadmap.",
+        "order": 4,
+        "prerequisites": ["lesson_01", "lesson_02", "lesson_03"],
+        "status": "LOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      },
+      {
+        "id": "lesson_04",
+        "type": "LESSON",
+        "title": "Working with Docker Containers",
+        "description": "Learn how to manage and interact with Docker containers effectively.",
+        "order": 5,
+        "prerequisites": ["checkpoint_01"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "The One Docker Tutorial Every Beginner Developer ...",
+            "url": "https://medium.com/@nomannayeem/the-one-docker-tutorial-every-beginner-developer-actually-needs-f94a5774da27",
+            "type": "ARTICLE",
+            "description": "1.   Volumes (like above): Managed by Docker, best for persistent data\n2.   Bind mounts: Connect container paths to host paths, perfect for development\n3.   tmpfs mounts: Stored in memory only, good for sensitive info\n\nFor local development, I almost always use bind mounts to syn",
+            "source": "medium.com"
+          },
+          {
+            "title": "Docker for Beginners: A Practical Guide to Containers | DataCamp",
+            "url": "https://www.datacamp.com/tutorial/docker-tutorial",
+            "type": "ARTICLE",
+            "description": "### Docker images\n\nDocker images are the fundamental building blocks of containers. They are immutable, read-only templates containing everything needed to run an application, including the operating system, application code, runtime, and dependencies.\n\nImages are built using a `",
+            "source": "www.datacamp.com"
+          }
+        ],
+        "learningObjectives": [
+          "Start, stop, and remove containers.",
+          "Use Docker commands to inspect container states.",
+          "Link containers and manage networking."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_05",
+        "type": "LESSON",
+        "title": "Docker Compose",
+        "description": "Learn how to define and run multi-container applications using Docker Compose.",
+        "order": 6,
+        "prerequisites": ["lesson_04"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Medium",
+            "url": "https://medium.com/@ShantKhayalian/docker-vs-docker-compose-simple-and-fun-explanation-4811582127f7",
+            "type": "ARTICLE",
+            "description": "## Why Use Docker and Docker Compose?\n\nDocker and Docker Compose are powerful tools that make the life of developers easier. Docker packages individual applications and their dependencies into containers, ensuring they run consistently across different environments. Docker Compos",
+            "source": "medium.com"
+          },
+          {
+            "title": "docker/compose - Docker Image",
+            "url": "https://hub.docker.com/r/docker/compose",
+            "type": "ARTICLE",
+            "description": "### ⁠Docker Compose\n\nCompose is a tool for defining and running multi-container Docker applications. With Compose, you use a Compose file to configure your application's services. Then, using a single command, you create and start all the services from your configuration. To lear",
+            "source": "hub.docker.com"
+          }
+        ],
+        "learningObjectives": [
+          "Understand the purpose of Docker Compose.",
+          "Create a docker-compose.yml file.",
+          "Deploy multi-container applications."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_06",
+        "type": "LESSON",
+        "title": "Best Practices for Docker",
+        "description": "Learn best practices for building and managing Docker containers.",
+        "order": 7,
+        "prerequisites": ["lesson_05"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Top 8 Docker Best Practices for using Docker in Production ✅ - DEV Community",
+            "url": "https://dev.to/techworld_with_nana/top-8-docker-best-practices-for-using-docker-in-production-1m39",
+            "type": "ARTICLE",
+            "description": "✅ improve security,\n ✅ optimize the image size,\n ✅ take advantage of some of the useful Docker features\n ✅ and also write cleaner and more maintainable Dockerfiles\n\n## 1️⃣ Best Practice\n\n> Use an official and verified Docker image as a base image, whenever available.\n\nLet's say y",
+            "source": "dev.to"
+          },
+          {
+            "title": "21 Docker Security Best Practices: Daemon, Image, Containers",
+            "url": "https://spacelift.io/blog/docker-security",
+            "type": "ARTICLE",
+            "description": "## Docker container security best practices\n\nThe settings you apply to your Docker containers at runtime affect the security of your containerized applications, as well as your Docker host. Here are some techniques that help prevent containers from posing a threat.\n\nDocker contai",
+            "source": "spacelift.io"
+          }
+        ],
+        "learningObjectives": [
+          "Implement security best practices.",
+          "Optimize Docker images for performance.",
+          "Understand version control for Docker images."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "checkpoint_02",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 2",
+        "description": "Validate progress across Working with Docker Containers; Docker Compose; Best Practices for Docker for the Docker roadmap.",
+        "order": 8,
+        "prerequisites": ["lesson_04", "lesson_05", "lesson_06"],
+        "status": "LOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      },
+      {
+        "id": "lesson_07",
+        "type": "LESSON",
+        "title": "Deploying Docker Applications",
+        "description": "Learn how to deploy Docker containers in different environments.",
+        "order": 9,
+        "prerequisites": ["checkpoint_02"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Docker - Deploying WebApps on Docker - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/devops/docker-deploying-webapps-on-docker",
+            "type": "ARTICLE",
+            "description": "Last Updated : 23 Jul, 2025\n\nDocker applies abstraction at the software layer of the operating system to create an instant and portable environment that includes everything you need: a Linux kernel, libraries, system tools like grep or sshfs, plus applications (web servers/servic",
+            "source": "www.geeksforgeeks.org"
+          },
+          {
+            "title": "What is container deployment? Benefits, how it works, and best practices. | Blog — Northflank",
+            "url": "https://northflank.com/blog/container-deployment",
+            "type": "ARTICLE",
+            "description": "Build: Start with your application code and dependencies. This is where you prepare everything that will eventually run in production.\n Package: Turn the code into a container image, which acts as a blueprint for how the application should run.\n Push: Store that image in a contai",
+            "source": "northflank.com"
+          }
+        ],
+        "learningObjectives": [
+          "Understand deployment options for Docker containers.",
+          "Deploy applications on cloud platforms.",
+          "Monitor and troubleshoot Docker applications."
+        ],
+        "estimatedMinutes": 90
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge_lesson_01_to_lesson_02",
+        "source": "lesson_01",
+        "target": "lesson_02"
+      },
+      {
+        "id": "edge_lesson_02_to_lesson_03",
+        "source": "lesson_02",
+        "target": "lesson_03"
+      },
+      {
+        "id": "edge_lesson_01_to_checkpoint_01",
+        "source": "lesson_01",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_02_to_checkpoint_01",
+        "source": "lesson_02",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_03_to_checkpoint_01",
+        "source": "lesson_03",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_checkpoint_01_to_lesson_04",
+        "source": "checkpoint_01",
+        "target": "lesson_04"
+      },
+      {
+        "id": "edge_lesson_04_to_lesson_05",
+        "source": "lesson_04",
+        "target": "lesson_05"
+      },
+      {
+        "id": "edge_lesson_05_to_lesson_06",
+        "source": "lesson_05",
+        "target": "lesson_06"
+      },
+      {
+        "id": "edge_lesson_04_to_checkpoint_02",
+        "source": "lesson_04",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_05_to_checkpoint_02",
+        "source": "lesson_05",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_06_to_checkpoint_02",
+        "source": "lesson_06",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_checkpoint_02_to_lesson_07",
+        "source": "checkpoint_02",
+        "target": "lesson_07"
+      }
+    ],
+    "createdAt": "2026-09-13T09:37:36.637584+00:00",
+    "updatedAt": "2026-09-13T09:37:36.637692+00:00"
+  },
+  "roadmap_f73dfa0c1a": {
+    "roadmapId": "roadmap_f73dfa0c1a",
+    "title": "Beginner Python Roadmap for Automation Projects",
+    "topic": "Python",
+    "goal": "I want a practical Python roadmap that covers coding basics, tooling, and testing for small automation projects.",
+    "level": "BEGINNER",
+    "status": "ACTIVE",
+    "constraints": {
+      "hoursPerDay": 1.0,
+      "deadlineWeeks": 4
+    },
+    "nodes": [
+      {
+        "id": "lesson_01",
+        "type": "LESSON",
+        "title": "Introduction to Python",
+        "description": "Understanding the basics of Python syntax and structure is essential for any programming task.",
+        "order": 1,
+        "prerequisites": [],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Introduction to Python Programming | Coursera",
+            "url": "https://www.coursera.org/learn/python-programming-intro",
+            "type": "ARTICLE",
+            "description": "## There are 4 modules in this course\n\nThis course provides an introduction to programming and the Python language. Students are introduced to core programming concepts like data structures, conditionals, loops, variables, and functions. This course includes an overview of the va",
+            "source": "www.coursera.org"
+          },
+          {
+            "title": "Introduction to Python",
+            "url": "https://www.w3schools.com/python/python_intro.asp",
+            "type": "ARTICLE",
+            "description": "# Python Introduction\n\n## What is Python?\n\nPython is a popular programming language. It was created by Guido van Rossum,\nand released in 1991.\n\nIt is used for:\n\n### What can Python do?\n\n## Why Python?\n\n### Good to know\n\n### Python Syntax compared to other programming languages\n\n#",
+            "source": "www.w3schools.com"
+          }
+        ],
+        "learningObjectives": [
+          "Learn Python syntax and basic data types.",
+          "Understand control flow with conditionals and loops.",
+          "Write simple Python scripts."
+        ],
+        "estimatedMinutes": 120
+      },
+      {
+        "id": "lesson_02",
+        "type": "LESSON",
+        "title": "Working with Data Structures",
+        "description": "Data structures are fundamental for organizing and manipulating data effectively.",
+        "order": 2,
+        "prerequisites": ["lesson_01"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "A Guide to Python Data Structures | Codecademy",
+            "url": "https://www.codecademy.com/article/python-data-structures",
+            "type": "ARTICLE",
+            "description": "## Conclusion\n\nIn this guide, we covered the basics of data structures in Python, including built-in types like lists, tuples, dictionaries, and sets, and user-defined types such as arrays, linked lists, stacks, queues, trees, graphs, and hashmaps. We also discussed how to choose",
+            "source": "www.codecademy.com"
+          },
+          {
+            "title": "Data Structures in Python - Full Crash Course",
+            "url": "https://www.youtube.com/watch?v=vBY_q7zw3qo",
+            "type": "ARTICLE",
+            "description": "This video today is a crash course on data structures from scratch in Python. We're going to implement multiple different data structures from scratch in Python to learn how they work to understand them from the ground up. We're going to start with linked lists. We're going to th",
+            "source": "www.youtube.com"
+          }
+        ],
+        "learningObjectives": [
+          "Understand lists, tuples, and dictionaries.",
+          "Learn how to manipulate and iterate over data structures.",
+          "Practice using data structures in small projects."
+        ],
+        "estimatedMinutes": 120
+      },
+      {
+        "id": "lesson_03",
+        "type": "LESSON",
+        "title": "Functions and Modules",
+        "description": "Functions and modules help in organizing code and promoting reusability.",
+        "order": 3,
+        "prerequisites": ["lesson_02"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Modules and Functions in Python",
+            "url": "https://medium.com/@er.26yashiagarwal/modules-and-functions-in-python-423a0b6c4f49",
+            "type": "ARTICLE",
+            "description": "`abs(),delattr(),hash(),memoryview(),set(),all(),dict(),help(),min(),setattr(),any(),dir(),hex(),next(),slice(),ascii(),divmod(),id(),object(),sorted(),bin(),enumerate(),input(),oct(),staticmethod(),bool(),eval(),int(),open(),str(),breakpoint(),exec(),isinstance(),ord(),sum(),byt",
+            "source": "medium.com"
+          },
+          {
+            "title": "7. Functions and modules — Introduction to Python for Computational Science and Engineering",
+            "url": "https://fangohr.github.io/introduction-to-python-for-computational-science-and-engineering/07-functions-modules.html",
+            "type": "ARTICLE",
+            "description": "Introduction to Python for Computational Science and Engineering - Home\n\n Repository\n Open issue\n\n .ipynb\n\n# Functions and modules\n\n# 7. Functions and modules#\n\n## 7.1. Introduction#\n\nFunctions allow us to group a number of statements into a logical block. We communicate with a f",
+            "source": "fangohr.github.io"
+          }
+        ],
+        "learningObjectives": [
+          "Define and call functions in Python.",
+          "Understand the concept of scope and return values.",
+          "Learn how to create and import modules."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "checkpoint_01",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 1",
+        "description": "Validate progress across Introduction to Python; Working with Data Structures; Functions and Modules for the Python roadmap.",
+        "order": 4,
+        "prerequisites": ["lesson_01", "lesson_02", "lesson_03"],
+        "status": "LOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      },
+      {
+        "id": "lesson_04",
+        "type": "LESSON",
+        "title": "Introduction to Python Tooling",
+        "description": "Familiarity with development tools enhances productivity and code quality.",
+        "order": 5,
+        "prerequisites": ["checkpoint_01"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Python Tooling Explained | pydevtools",
+            "url": "https://pydevtools.com/handbook/explanation",
+            "type": "ARTICLE",
+            "description": "Python tooling guide for Go developers. Comparison of `go` vs `uv`, virtual environments, packaging tools, and testing frameworks. ### Python Tooling for Java Developers\n\nPython tooling for Java developers. Map Maven to uv, JUnit to pytest, Checkstyle to Ruff, and Java type check",
+            "source": "pydevtools.com"
+          },
+          {
+            "title": "PLEASE Learn These 4 Python Tools",
+            "url": "https://www.youtube.com/watch?v=mUZlA1m-MRM",
+            "type": "ARTICLE",
+            "description": "# PLEASE Learn These 4 Python Tools\n## Tech With Tim\n2069999 subscribers\n4125 likes\n\n### Description\n100248 views\nPosted: 9 Jun 2025\nGet a 25% discount using the code TWT25 for SEOWriting at \n\nWant to make real money with coding? I share high-signal insights on careers, monetizat",
+            "source": "www.youtube.com"
+          }
+        ],
+        "learningObjectives": [
+          "Set up a Python development environment.",
+          "Learn to use version control with Git.",
+          "Explore package management with pip."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_05",
+        "type": "LESSON",
+        "title": "Testing in Python",
+        "description": "Testing ensures that your code works as expected and helps catch bugs early.",
+        "order": 6,
+        "prerequisites": ["lesson_04"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Python Testing - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/python/python-testing",
+            "type": "ARTICLE",
+            "description": "geeksforgeeks\n\nsearch icon\n\n Interview Prep\n\n Python Tutorial\n Data Types\n Interview Questions\n Examples\n Quizzes\n DSA Python\n Data Science\n NumPy\n Pandas\n Practice\n Django\n Flask\n\n# Python Testing\n\nLast Updated : 30 Jan, 2026\n\nPython testing is the process of verifying that a pr",
+            "source": "www.geeksforgeeks.org"
+          },
+          {
+            "title": "What Is a Python Testing Framework? | Coursera",
+            "url": "https://www.coursera.org/articles/python-testing-framework",
+            "type": "ARTICLE",
+            "description": "A Python testing framework is a set of libraries and tools that allow you to automate tests of a software application while building it. With these tests, you can determine whether or not the outcomes of your applications are lining up with the intended results and produce test r",
+            "source": "www.coursera.org"
+          }
+        ],
+        "learningObjectives": [
+          "Understand the importance of testing.",
+          "Learn to write unit tests using unittest.",
+          "Explore test-driven development (TDD) principles."
+        ],
+        "estimatedMinutes": 120
+      },
+      {
+        "id": "lesson_06",
+        "type": "LESSON",
+        "title": "Building Small Automation Projects",
+        "description": "Applying your knowledge to real-world projects solidifies your learning.",
+        "order": 7,
+        "prerequisites": ["lesson_05"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "20+ Best Python Automation Project Ideas for Beginners - DEV Community",
+            "url": "https://dev.to/tarunfulera1/20-best-python-automation-project-ideas-for-beginners-ci7",
+            "type": "ARTICLE",
+            "description": "## 1. Automate Sending Emails\n\nHave you ever wished you could send bulk emails with just a click? Python’s smtplib and email modules let you send automated emails effortlessly.\n\nTools & Libraries:\n\nsmtplib\n\nemail\n\nschedule (for scheduling)\n\nUse Case:\n\nSend daily updates or newsle",
+            "source": "dev.to"
+          },
+          {
+            "title": "Suggest me some ideas of automation project in Python",
+            "url": "https://www.reddit.com/r/learnpython/comments/13l1ru4/suggest_me_some_ideas_of_automation_project_in",
+            "type": "ARTICLE",
+            "description": "Image Editing: Consider libraries like Pillow. · Email Automation: Consider libraries like smtplib, imaplib, and ezgmail. · System Backups:",
+            "source": "www.reddit.com"
+          }
+        ],
+        "learningObjectives": [
+          "Identify automation tasks suitable for Python.",
+          "Develop a small automation script from scratch.",
+          "Debug and optimize your automation project."
+        ],
+        "estimatedMinutes": 180
+      },
+      {
+        "id": "checkpoint_02",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 2",
+        "description": "Validate progress across Introduction to Python Tooling; Testing in Python; Building Small Automation Projects for the Python roadmap.",
+        "order": 8,
+        "prerequisites": ["lesson_04", "lesson_05", "lesson_06"],
+        "status": "LOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge_lesson_01_to_lesson_02",
+        "source": "lesson_01",
+        "target": "lesson_02"
+      },
+      {
+        "id": "edge_lesson_02_to_lesson_03",
+        "source": "lesson_02",
+        "target": "lesson_03"
+      },
+      {
+        "id": "edge_lesson_01_to_checkpoint_01",
+        "source": "lesson_01",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_02_to_checkpoint_01",
+        "source": "lesson_02",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_03_to_checkpoint_01",
+        "source": "lesson_03",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_checkpoint_01_to_lesson_04",
+        "source": "checkpoint_01",
+        "target": "lesson_04"
+      },
+      {
+        "id": "edge_lesson_04_to_lesson_05",
+        "source": "lesson_04",
+        "target": "lesson_05"
+      },
+      {
+        "id": "edge_lesson_05_to_lesson_06",
+        "source": "lesson_05",
+        "target": "lesson_06"
+      },
+      {
+        "id": "edge_lesson_04_to_checkpoint_02",
+        "source": "lesson_04",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_05_to_checkpoint_02",
+        "source": "lesson_05",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_06_to_checkpoint_02",
+        "source": "lesson_06",
+        "target": "checkpoint_02"
+      }
+    ],
+    "createdAt": "2026-09-13T09:38:08.840852+00:00",
+    "updatedAt": "2026-09-13T09:38:08.842828+00:00"
+  },
+  "roadmap_cb436fccac": {
+    "roadmapId": "roadmap_cb436fccac",
+    "title": "Beginner Docker Learning Roadmap",
+    "topic": "Docker",
+    "goal": "Generate a Docker roadmap where I can track progress lesson by lesson and unlock checkpoints automatically.",
+    "level": "BEGINNER",
+    "status": "DRAFT",
+    "constraints": {
+      "hoursPerDay": 1.0,
+      "deadlineWeeks": 6
+    },
+    "nodes": [
+      {
+        "id": "lesson_01",
+        "type": "LESSON",
+        "title": "Introduction to Containers",
+        "description": "Understanding the concept of containers is fundamental to using Docker effectively.",
+        "order": 1,
+        "prerequisites": [],
+        "status": "COMPLETED",
+        "resources": [
+          {
+            "title": "Introduction to Containers and Docker",
+            "url": "https://endjin.com/blog/introduction-to-containers-and-docker",
+            "type": "ARTICLE",
+            "description": "A Docker image is a blueprint containing all configuration settings and dependencies needed for an application. A container is a running instance of that image - you can create multiple containers from the same image, each running independently. [...] Images: The blueprints of ou",
+            "source": "endjin.com"
+          },
+          {
+            "title": "Introduction to Docker: Containers - Medium",
+            "url": "https://johnnymaclean.medium.com/introduction-to-docker-containers-f994be45cccb",
+            "type": "ARTICLE",
+            "description": "Containers are lightweight, standalone, and portable units that encapsulate an application, its dependencies, and runtime configuration.",
+            "source": "johnnymaclean.medium.com"
+          }
+        ],
+        "learningObjectives": [
+          "Define what a container is and how it differs from virtual machines.",
+          "Explain the benefits of using containers in software development."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_02",
+        "type": "LESSON",
+        "title": "Installing Docker",
+        "description": "Installing Docker is the first practical step to start using it.",
+        "order": 2,
+        "prerequisites": ["lesson_01"],
+        "status": "COMPLETED",
+        "resources": [
+          {
+            "title": "index/Docker_guide.md at main · WCSCourses/index · GitHub",
+            "url": "https://github.com/WCSCourses/index/blob/main/Docker_guide.md",
+            "type": "ARTICLE",
+            "description": "### 1. Download Docker Desktop\n\n Visit the Docker Desktop for Mac page.\n Click on \"Download for Mac\" to get the installer.\n\n### 2. Install Docker Desktop\n\n Once the `.dmg` file is downloaded, double-click it to open.\n Drag the Docker icon to the Applications folder.\n\n### 3. Start",
+            "source": "github.com"
+          },
+          {
+            "title": "Guide to Installing Docker on Windows and Mac",
+            "url": "https://codefinity.com/blog/Guide-to-Installing-Docker-on-Windows-and-Mac",
+            "type": "ARTICLE",
+            "description": "Run the Installer – Double-click the downloaded .exe file to launch the Docker Desktop Installer.\n\nSelect Installation Options –\n\n Ensure “Use WSL 2 instead of Hyper-V” is checked (recommended);\n If you do not have WSL 2 installed, Docker will prompt you to install it.\n\nClick \"Ok",
+            "source": "codefinity.com"
+          }
+        ],
+        "learningObjectives": [
+          "Install Docker on your operating system.",
+          "Verify the installation by running a simple Docker command."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_03",
+        "type": "LESSON",
+        "title": "Basic Docker Commands",
+        "description": "Familiarizing yourself with basic commands is essential for working with Docker.",
+        "order": 3,
+        "prerequisites": ["lesson_02"],
+        "status": "COMPLETED",
+        "resources": [
+          {
+            "title": "Medium",
+            "url": "https://medium.com/@psnavya90/docker-commands-24b35161f775",
+            "type": "ARTICLE",
+            "description": "Sign up\n\nSign in\n\nSign up\n\nSign in\n\nUnknown user\nNavya PS\n\n## Navya PS\n\nSenior Automation Engineer coding with precision, unraveling mysteries with tarot, feline nurturer \n\n# Docker Commands\n\nNavya PS\n\n--\n\nListen\n\nShare\n\nHere’s a comprehensive list of the most commonly used Docke",
+            "source": "medium.com"
+          },
+          {
+            "title": "25 Basic Docker Commands for Beginners : r/selfhosted",
+            "url": "https://www.reddit.com/r/selfhosted/comments/g3p37k/25_basic_docker_commands_for_beginners",
+            "type": "ARTICLE",
+            "description": "This command executes command within the context of the container and is endlessly useful. For example: docker exec -it container_name bash (or",
+            "source": "www.reddit.com"
+          }
+        ],
+        "learningObjectives": [
+          "Learn how to create, run, and stop containers.",
+          "Understand how to list and remove containers."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "checkpoint_01",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 1",
+        "description": "Validate progress across Introduction to Containers; Installing Docker; Basic Docker Commands for the Docker roadmap.",
+        "order": 4,
+        "prerequisites": ["lesson_01", "lesson_02", "lesson_03"],
+        "status": "UNLOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      },
+      {
+        "id": "lesson_04",
+        "type": "LESSON",
+        "title": "Creating Docker Images",
+        "description": "Images are the building blocks of containers; knowing how to create them is crucial.",
+        "order": 5,
+        "prerequisites": ["checkpoint_01"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Docker Images: Beginner’s Guide to Build & Use | JFrog",
+            "url": "https://jfrog.com/learn/cloud-native/how-to-build-docker-images",
+            "type": "ARTICLE",
+            "description": "A Docker image is a read-only template containing instructions to create a container, packaging an application and its preconfigured environment. It’s the essential starting point for using Docker.\n Images are built from layers, where each layer is an intermediate image, and chan",
+            "source": "jfrog.com"
+          },
+          {
+            "title": "The Art of Creating Container Images and Best Practices - DEV Community",
+            "url": "https://dev.to/aws-builders/the-art-of-creating-container-images-and-best-practices-3p9d",
+            "type": "ARTICLE",
+            "description": "### Pushing Images to Docker Hub\n\n1. Create a Docker Hub Account: If you don't already have one, go to Docker Hub and create an account.\n2. Login to Docker Hub:\n\n```\n docker login \n```\n\nYou will be prompted to enter your Docker Hub username and password.\n\n1. Tag Your Image:\n\n```\n",
+            "source": "dev.to"
+          }
+        ],
+        "learningObjectives": [
+          "Understand the structure of a Dockerfile.",
+          "Build a Docker image from a Dockerfile."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_05",
+        "type": "LESSON",
+        "title": "Docker Networking Basics",
+        "description": "Networking is key to enabling communication between containers.",
+        "order": 6,
+        "prerequisites": ["lesson_04"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Docker Networking Basics",
+            "url": "https://www.kevsrobots.com/learn/docker/06_networking.html",
+            "type": "ARTICLE",
+            "description": "1. Bridge Network:\n    The default network type when you run a container with `docker run`.\n    Creates a network stack on the host in the Docker bridge network.\n2. Host Network:\n    Removes network isolation between the container and the Docker host, using the host’s networking ",
+            "source": "www.kevsrobots.com"
+          },
+          {
+            "title": "Docker Networking - Basics, Network Types & Examples",
+            "url": "https://spacelift.io/blog/docker-networking",
+            "type": "ARTICLE",
+            "description": "Network namespaces – Each Docker container runs inside its own network namespace, isolating its network stack from the host and other containers. This ensures that IP addresses, routing tables, and interfaces don’t conflict across containers.\n Virtual Ethernet interfaces (veth pa",
+            "source": "spacelift.io"
+          }
+        ],
+        "learningObjectives": [
+          "Explain how Docker manages networking.",
+          "Create a simple network and connect containers to it."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_06",
+        "type": "LESSON",
+        "title": "Data Management in Docker",
+        "description": "Managing data in containers is important for persistent storage.",
+        "order": 7,
+        "prerequisites": ["lesson_05"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "[PDF] Data management in Docker - Agenda INFN",
+            "url": "https://agenda.infn.it/event/36241/sessions/26091/attachments/109819/156106/Data%20management%20in%20Docker.pdf",
+            "type": "ARTICLE",
+            "description": "Corso base su Docker 12-14/09/2023 S. Nicotri (nicotri@infn.it) Data management in Docker Stefano Nicotri (INFN Bari) nicotri@infn.it Corso base su Docker 12-14/09/2023 S. Nicotri (nicotri@infn.it) Outline ● Recap of data layers in Docker containers ● Storage drivers ● Persistenc",
+            "source": "agenda.infn.it"
+          },
+          {
+            "title": "Manage data in Docker",
+            "url": "https://builder.aws.com/content/2mhA5YtPOakMo8u8rBVaiLBqLkh/manage-data-in-docker",
+            "type": "ARTICLE",
+            "description": "Master data management in Docker: Use volumes and bind mounts to store, persist, and share data across containers.",
+            "source": "builder.aws.com"
+          }
+        ],
+        "learningObjectives": [
+          "Learn about volumes and bind mounts.",
+          "Implement data persistence in a Docker container."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "checkpoint_02",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 2",
+        "description": "Validate progress across Creating Docker Images; Docker Networking Basics; Data Management in Docker for the Docker roadmap.",
+        "order": 8,
+        "prerequisites": ["lesson_04", "lesson_05", "lesson_06"],
+        "status": "LOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      },
+      {
+        "id": "lesson_07",
+        "type": "LESSON",
+        "title": "Deploying Applications with Docker",
+        "description": "Deploying applications using Docker is the ultimate goal of your learning.",
+        "order": 9,
+        "prerequisites": ["checkpoint_02"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Deploying WebApps on Docker - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/devops/docker-deploying-webapps-on-docker",
+            "type": "ARTICLE",
+            "description": "Last Updated : 23 Jul, 2025\n\nDocker applies abstraction at the software layer of the operating system to create an instant and portable environment that includes everything you need: a Linux kernel, libraries, system tools like grep or sshfs, plus applications (web servers/servic",
+            "source": "www.geeksforgeeks.org"
+          },
+          {
+            "title": "How to Dockerize Your Application and Deploy It - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/news/how-to-dockerize-your-application-and-deploy-it",
+            "type": "ARTICLE",
+            "description": "## Final Thoughts\n\nDocker turns your application into a portable, predictable unit. For the LogAnalyzer Agent, this means the AI logic, the FastAPI server, and the frontend all move together as one artifact.\n\nBy cloning the project, adding a Dockerfile, and building an image, you",
+            "source": "www.freecodecamp.org"
+          }
+        ],
+        "learningObjectives": [
+          "Deploy a simple web application using Docker.",
+          "Understand how to manage and scale Docker containers."
+        ],
+        "estimatedMinutes": 90
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge_lesson_01_to_lesson_02",
+        "source": "lesson_01",
+        "target": "lesson_02"
+      },
+      {
+        "id": "edge_lesson_02_to_lesson_03",
+        "source": "lesson_02",
+        "target": "lesson_03"
+      },
+      {
+        "id": "edge_lesson_01_to_checkpoint_01",
+        "source": "lesson_01",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_02_to_checkpoint_01",
+        "source": "lesson_02",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_03_to_checkpoint_01",
+        "source": "lesson_03",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_checkpoint_01_to_lesson_04",
+        "source": "checkpoint_01",
+        "target": "lesson_04"
+      },
+      {
+        "id": "edge_lesson_04_to_lesson_05",
+        "source": "lesson_04",
+        "target": "lesson_05"
+      },
+      {
+        "id": "edge_lesson_05_to_lesson_06",
+        "source": "lesson_05",
+        "target": "lesson_06"
+      },
+      {
+        "id": "edge_lesson_04_to_checkpoint_02",
+        "source": "lesson_04",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_05_to_checkpoint_02",
+        "source": "lesson_05",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_06_to_checkpoint_02",
+        "source": "lesson_06",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_checkpoint_02_to_lesson_07",
+        "source": "checkpoint_02",
+        "target": "lesson_07"
+      }
+    ],
+    "createdAt": "2026-09-13T09:38:44.937623+00:00",
+    "updatedAt": "2026-09-13T09:38:44.951368+00:00"
+  },
+  "roadmap_9f1afefe4d": {
+    "roadmapId": "roadmap_9f1afefe4d",
+    "title": "Kubernetes Learning Roadmap",
+    "topic": "Kubernetes",
+    "goal": "I want a roadmap to learn Kubernetes foundations and core deployment workflows with persistent progress state.",
+    "level": "BEGINNER",
+    "status": "ACTIVE",
+    "constraints": {
+      "hoursPerDay": 1.0,
+      "deadlineWeeks": 8
+    },
+    "nodes": [
+      {
+        "id": "lesson_01",
+        "type": "LESSON",
+        "title": "Introduction to Containers",
+        "description": "Understanding containers is essential as Kubernetes is built around container orchestration.",
+        "order": 1,
+        "prerequisites": [],
+        "status": "COMPLETED",
+        "resources": [
+          {
+            "title": "A simple introduction to Kubernetes and the world of containers | Nulab",
+            "url": "https://nulab.com/learn/software-development/introduction-kubernetes-containers",
+            "type": "ARTICLE",
+            "description": "Cluster: This is a collection of servers, including the API server.\n Master node: The master is a collection of components that make up Kubernetes’s control panel. It is used for each cluster decision.\n Worker Node: Worker nodes check the API Server for new work assignments, whic",
+            "source": "nulab.com"
+          },
+          {
+            "title": "Introduction to Containerization and Kubernetes",
+            "url": "https://medium.com/crossml/introduction-to-containerization-and-kubernetes-294d1f9b4aa8",
+            "type": "ARTICLE",
+            "description": "Kubernetes is a powerful open-source system originally developed by Google to handle containerized applications in a clustered environment.",
+            "source": "medium.com"
+          }
+        ],
+        "learningObjectives": [
+          "Define what containers are and their benefits.",
+          "Learn about Docker and how to create a simple container."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_02",
+        "type": "LESSON",
+        "title": "Kubernetes Architecture",
+        "description": "Familiarizing yourself with Kubernetes architecture will help you understand how it manages containers.",
+        "order": 2,
+        "prerequisites": ["lesson_01"],
+        "status": "COMPLETED",
+        "resources": [
+          {
+            "title": "Kubernetes architecture: Components and diagrams | Mirantis",
+            "url": "https://www.mirantis.com/blog/the-architecture-of-a-kubernetes-cluster",
+            "type": "ARTICLE",
+            "description": "## What is Kubernetes architecture?\n\nKubernetes architecture refers to the foundational design and organizational structure that enables Kubernetes to automate, scale, and manage containerized applications. It’s built around the principle of declarative configuration—users define",
+            "source": "www.mirantis.com"
+          },
+          {
+            "title": "Kubernetes — Architecture Overview",
+            "url": "https://medium.com/devops-mojo/kubernetes-architecture-overview-90e11eb34ccd",
+            "type": "ARTICLE",
+            "description": "## Kubernetes Architecture\n\nKubernetes deployment is called a cluster. A Kubernetes cluster consists of at least one main (control) plane, and one or more worker machines, called nodes. Both the control planes and node instances can be physical devices, virtual machines, or insta",
+            "source": "medium.com"
+          }
+        ],
+        "learningObjectives": [
+          "Identify the main components of Kubernetes (e.g., nodes, pods, services).",
+          "Understand the role of the Kubernetes API server."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_03",
+        "type": "LESSON",
+        "title": "Setting Up a Kubernetes Cluster",
+        "description": "Setting up a cluster is a practical step that allows you to interact with Kubernetes directly.",
+        "order": 3,
+        "prerequisites": ["lesson_02"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Setting Up a Kubernetes Cluster: A Step-by-Step Tutorial",
+            "url": "https://nextbrick.com/setting-up-a-kubernetes-cluster-a-step-by-step-tutorial",
+            "type": "ARTICLE",
+            "description": "Setting Up a Kubernetes Cluster: A Step-by-Step Tutorial. If you’re ready to dive deeper into Kubernetes, setting up your own Kubernetes cluster is an essential step to understanding how it works. In this tutorial, we’ll walk you through the process of setting up a Kubernetes clu",
+            "source": "nextbrick.com"
+          },
+          {
+            "title": "Setting Up a Kubernetes Cluster: A Comprehensive Guide to Installation and Configuration",
+            "url": "https://www.livescript.in/2024/01/setting-up-kubernetes-cluster.html",
+            "type": "ARTICLE",
+            "description": "Title: Setting Up a Kubernetes Cluster: A Comprehensive Guide to Installation and Configuration\n# Setting Up a Kubernetes Cluster: A Comprehensive Guide to Installation and Configuration. When it comes to setting up a Kubernetes cluster, there are several installation methods and",
+            "source": "www.livescript.in"
+          }
+        ],
+        "learningObjectives": [
+          "Install Minikube or use a cloud provider to set up a Kubernetes cluster.",
+          "Learn basic kubectl commands to interact with your cluster."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "checkpoint_01",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 1",
+        "description": "Validate progress across Introduction to Containers; Kubernetes Architecture; Setting Up a Kubernetes Cluster for the Kubernetes roadmap.",
+        "order": 4,
+        "prerequisites": ["lesson_01", "lesson_02", "lesson_03"],
+        "status": "LOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      },
+      {
+        "id": "lesson_04",
+        "type": "LESSON",
+        "title": "Deploying Applications on Kubernetes",
+        "description": "Deploying applications is a core function of Kubernetes that you will use frequently.",
+        "order": 5,
+        "prerequisites": ["checkpoint_01"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "kubernetes-projects-learning/learning/Deploying-an-Application-on-Kubernetes/README.md at master · NotHarshhaa/kubernetes-projects-learning · GitHub",
+            "url": "https://github.com/NotHarshhaa/kubernetes-projects-learning/blob/master/learning/Deploying-an-Application-on-Kubernetes/README.md",
+            "type": "ARTICLE",
+            "description": "### Expose the application\n\nOnce you deploy your application, you need to expose the application to the outside world by creating a Service with a type of LoadBalancer or ExternalName. This allows users to access the application through a stable IP address or hostname.\n\n ### Moni",
+            "source": "github.com"
+          },
+          {
+            "title": "Deploying an Application on Kubernetes: A Complete Guide! - DEV Community",
+            "url": "https://dev.to/pavanbelagatti/deploying-an-application-on-kubernetes-a-complete-guide-1cj6",
+            "type": "ARTICLE",
+            "description": "Expose the application:\n\nOnce you deploy your application, you need to expose the application to the outside world by creating a Service with a type of LoadBalancer or ExternalName. This allows users to access the application through a stable IP address or hostname.\n\n Monitor and",
+            "source": "dev.to"
+          }
+        ],
+        "learningObjectives": [
+          "Create and deploy a simple application using a Kubernetes deployment.",
+          "Understand how to expose your application using services."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_05",
+        "type": "LESSON",
+        "title": "Managing Persistent Storage",
+        "description": "Understanding persistent storage is crucial for stateful applications in Kubernetes.",
+        "order": 6,
+        "prerequisites": ["lesson_04"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Persistent Storage for Kubernetes Explained | Lightbits Labs",
+            "url": "http://www.lightbitslabs.com/solution-guide/persistent-storage-for-containers-kubernetes",
+            "type": "ARTICLE",
+            "description": "Persistent storage for Kubernetes refers to the ability to store data persistently within Kubernetes clusters. Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. However, by default, ",
+            "source": "www.lightbitslabs.com"
+          },
+          {
+            "title": "Kubernetes Persistent Storage: Definition & Examples",
+            "url": "https://portworx.com/knowledge-hub/kubernetes-persistent-storage-definition-and-examples",
+            "type": "ARTICLE",
+            "description": "Deploying, scaling, and managing storage for Kubernetes applications involve more than just ensuring data persistence outside of the container lifecycle. As Kubernetes applications scale quickly and dynamically, they introduce additional challenges:.\n\n## Kubernetes storage and da",
+            "source": "portworx.com"
+          }
+        ],
+        "learningObjectives": [
+          "Learn about Persistent Volumes and Persistent Volume Claims.",
+          "Implement storage solutions for your applications."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_06",
+        "type": "LESSON",
+        "title": "Scaling and Updating Applications",
+        "description": "Scaling and updating applications are essential for maintaining performance and availability.",
+        "order": 7,
+        "prerequisites": ["lesson_05"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Scaling and Updating Applications on Kubernetes",
+            "url": "https://medium.com/@prateek17/scaling-and-updating-applications-on-kubernetes-strategies-and-techniques-342b036e6a24",
+            "type": "ARTICLE",
+            "description": "In conclusion, Scaling and Updating applications on Kubernetes can be easily achieved using Replication Controllers, Horizontal Pod Autoscaler,",
+            "source": "medium.com"
+          },
+          {
+            "title": "Simplifying Application Updates with Kubernetes ...",
+            "url": "https://www.linkedin.com/pulse/simplifying-application-updates-kubernetes-christopher-adamson-tyvtc",
+            "type": "ARTICLE",
+            "description": "Kubernetes Deployments provide a powerful abstraction that simplifies application deployment, updating, scaling and rollback. Using",
+            "source": "www.linkedin.com"
+          }
+        ],
+        "learningObjectives": [
+          "Learn how to scale applications up and down.",
+          "Understand rolling updates and rollbacks in Kubernetes."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "checkpoint_02",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 2",
+        "description": "Validate progress across Deploying Applications on Kubernetes; Managing Persistent Storage; Scaling and Updating Applications for the Kubernetes roadmap.",
+        "order": 8,
+        "prerequisites": ["lesson_04", "lesson_05", "lesson_06"],
+        "status": "LOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      },
+      {
+        "id": "lesson_07",
+        "type": "LESSON",
+        "title": "Monitoring and Logging in Kubernetes",
+        "description": "Monitoring and logging are vital for maintaining the health of your applications.",
+        "order": 9,
+        "prerequisites": ["checkpoint_02"],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "6 Kubernetes Logging Best Practices",
+            "url": "https://www.vcluster.com/blog/6-kubernetes-logging-best-practices",
+            "type": "ARTICLE",
+            "description": "## Best Practices for Kubernetes Logging\n\nEffective monitoring and troubleshooting of applications in Kubernetes require proper logging. Inadequate logging can result in challenges in identifying issues quickly and optimizing system performance. Organizations can enhance their mo",
+            "source": "www.vcluster.com"
+          },
+          {
+            "title": "Kubernetes",
+            "url": "https://en.wikipedia.org/wiki/Kubernetes",
+            "type": "ARTICLE",
+            "description": "Resource monitoring\n:   Container Resource Monitoring records metrics about containers in a central database, and provides a UI for browsing that data.\n\nCost monitoring\n:   Kubernetes cost monitoring applications allow breakdown of costs by pods, nodes, namespaces, and labels.\n\nC",
+            "source": "en.wikipedia.org"
+          }
+        ],
+        "learningObjectives": [
+          "Set up basic monitoring for your Kubernetes cluster.",
+          "Learn how to access logs for troubleshooting."
+        ],
+        "estimatedMinutes": 90
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge_lesson_01_to_lesson_02",
+        "source": "lesson_01",
+        "target": "lesson_02"
+      },
+      {
+        "id": "edge_lesson_02_to_lesson_03",
+        "source": "lesson_02",
+        "target": "lesson_03"
+      },
+      {
+        "id": "edge_lesson_01_to_checkpoint_01",
+        "source": "lesson_01",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_02_to_checkpoint_01",
+        "source": "lesson_02",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_03_to_checkpoint_01",
+        "source": "lesson_03",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_checkpoint_01_to_lesson_04",
+        "source": "checkpoint_01",
+        "target": "lesson_04"
+      },
+      {
+        "id": "edge_lesson_04_to_lesson_05",
+        "source": "lesson_04",
+        "target": "lesson_05"
+      },
+      {
+        "id": "edge_lesson_05_to_lesson_06",
+        "source": "lesson_05",
+        "target": "lesson_06"
+      },
+      {
+        "id": "edge_lesson_04_to_checkpoint_02",
+        "source": "lesson_04",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_05_to_checkpoint_02",
+        "source": "lesson_05",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_06_to_checkpoint_02",
+        "source": "lesson_06",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_checkpoint_02_to_lesson_07",
+        "source": "checkpoint_02",
+        "target": "lesson_07"
+      }
+    ],
+    "createdAt": "2026-09-13T09:39:17.266580+00:00",
+    "updatedAt": "2026-09-13T09:39:17.281875+00:00"
   }
 }
