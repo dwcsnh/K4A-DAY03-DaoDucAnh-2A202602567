@@ -1,29 +1,468 @@
 [
   {
     "step": 1,
-    "query": "Chào bạn, bạn có thể giới thiệu quy chế học vụ cơ bản của Đại học VinUni không?",
-    "action_type": "FINAL_ANSWER",
-    "thought": "Câu hỏi chung về quy chế học vụ, trả lời trực tiếp không cần gọi Tool.",
-    "output": "[Mock Agent Response]: Xin chào! Quy chế học vụ VinUni yêu cầu sinh viên tích lũy tối thiểu 120 tín chỉ và duy trì GPA trên 2.0 để tốt nghiệp.",
-    "latency_ms": 2845.93
-  },
-  {
-    "step": 1,
-    "query": "Hãy tra cứu thông tin học vụ của sinh viên SV2026001.",
-    "action_type": "TOOL_EXECUTION",
-    "tool_name": "academic_query",
-    "arguments": {
-      "student_id": "SV2026001"
+    "action_type": "UNDERSTAND_GOAL",
+    "input": {
+      "topic": "devops",
+      "goal": "devops",
+      "level": "BEGINNER",
+      "constraints": {
+        "hoursPerDay": 4.0,
+        "deadlineWeeks": 5
+      }
     },
-    "observation": {},
-    "latency_ms": 799.12
+    "thought": "Analyze the goal, level, and constraints before creating the roadmap."
   },
   {
     "step": 2,
-    "query": "Hãy tra cứu thông tin học vụ của sinh viên SV2026001.",
+    "action_type": "PLAN_ROADMAP",
+    "input": {
+      "topic": "devops",
+      "goal": "devops",
+      "level": "BEGINNER",
+      "constraints": {
+        "hoursPerDay": 4.0,
+        "deadlineWeeks": 5
+      }
+    },
+    "output": {
+      "title": "Beginner DevOps Learning Roadmap",
+      "topic": "devops",
+      "areas": [
+        "Introduction to DevOps",
+        "Version Control Systems",
+        "Continuous Integration (CI)",
+        "Continuous Deployment (CD)",
+        "Infrastructure as Code (IaC)",
+        "Monitoring and Logging",
+        "Collaboration and Communication"
+      ]
+    },
+    "latency_ms": 6521.27
+  },
+  {
+    "step": 3,
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "search_resources",
+    "arguments": {
+      "query": "devops Introduction to DevOps",
+      "topic": "devops",
+      "level": "BEGINNER",
+      "max_results": 3
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "query": "devops Introduction to DevOps",
+      "topic": "devops",
+      "results": [
+        {
+          "resource_id": "live-5155855118905273055-1",
+          "title": "Introduction To DevOps",
+          "url": "https://www.igmguru.com/blog/introduction-to-devops",
+          "type": "ARTICLE",
+          "description": "## What is DevOps?\n\nLet's discuss what is DevOps in this 'Introduction To DevOps' guide. DevOps is a worldly known and popular methodology. It combines development and operations to improve efficiency, speed and collaboration in the delivery of high-quality software. It mends the",
+          "source": "www.igmguru.com",
+          "level": "UNKNOWN",
+          "score": 3
+        },
+        {
+          "resource_id": "live-6026429662645756933-2",
+          "title": "Introduction to DevOps - GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/devops/introduction-to-devops",
+          "type": "ARTICLE",
+          "description": "geeksforgeeks\n\nsearch icon\n\n Interview Prep\n\n DevOps\n Cloud Computing\n Git\n AWS\n Docker\n Kubernetes\n Microsoft Azure\n Google Cloud Platform\n Python\n Golang\n Operating System\n Computer Network\n\n# Introduction to DevOps\n\nLast Updated : 4 Jul, 2026\n\nDevOps is a modern approach to so",
+          "source": "www.geeksforgeeks.org",
+          "level": "UNKNOWN",
+          "score": 2
+        },
+        {
+          "resource_id": "live-2693852148289998093-3",
+          "title": "What Is DevOps? - An Introduction To DevOps",
+          "url": "https://www.nimblework.com/blog/introduction-to-devops",
+          "type": "ARTICLE",
+          "description": "December 5, 2025 - ... DevOps is the term for the combination of Development and Operations. It refers to a collaborative approach to enable the Application Development team and the IT Operations team of an organization to seamlessly work with better communication.",
+          "source": "www.nimblework.com",
+          "level": "UNKNOWN",
+          "score": 1
+        }
+      ],
+      "source_mode": "tavily"
+    },
+    "latency_ms": 4081.67
+  },
+  {
+    "step": 4,
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "get_resource_details",
+    "arguments": {
+      "resource_id": "live-5155855118905273055-1"
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "resource": {
+        "resource_id": "live-5155855118905273055-1",
+        "title": "Introduction To DevOps",
+        "url": "https://www.igmguru.com/blog/introduction-to-devops",
+        "type": "ARTICLE",
+        "description": "## What is DevOps?\n\nLet's discuss what is DevOps in this 'Introduction To DevOps' guide. DevOps is a worldly known and popular methodology. It combines development and operations to improve efficiency, speed and collaboration in the delivery of high-quality software. It mends the",
+        "source": "www.igmguru.com",
+        "level": "UNKNOWN",
+        "score": 3
+      }
+    },
+    "latency_ms": 0.06
+  },
+  {
+    "step": 5,
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "search_resources",
+    "arguments": {
+      "query": "devops Version Control Systems",
+      "topic": "devops",
+      "level": "BEGINNER",
+      "max_results": 3
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "query": "devops Version Control Systems",
+      "topic": "devops",
+      "results": [
+        {
+          "resource_id": "live-5122528537983753589-1",
+          "title": "Version Control and DevOps | Provar Documentation",
+          "url": "https://documentation.provar.com/documentation/devops/version-control/version-control-and-devops",
+          "type": "ARTICLE",
+          "description": "July 15, 2024 - In DevOps, a Version Control System gives better control over the version of the tests being scheduled without needing to amend your Build File or your Continuous Integration Server setup.",
+          "source": "documentation.provar.com",
+          "level": "UNKNOWN",
+          "score": 3
+        },
+        {
+          "resource_id": "live-9031123576740244614-2",
+          "title": "Medium",
+          "url": "https://medium.com/@smitgabani/version-control-source-control-platforms-and-their-role-in-devops-3d115e06a10d",
+          "type": "ARTICLE",
+          "description": "Sign up\n\nSign in\n\nSign up\n\nSign in\n\nUnknown user\n\n# Version Control, Source Control, Platforms and their role in DevOps\n\nSmit\n\n--\n\nListen\n\nShare\n\n### DevOps Part 3: Version Control Systems and their role in DevOps\n\n## What is Version control?\n\nVersion control is a systematic appr",
+          "source": "medium.com",
+          "level": "UNKNOWN",
+          "score": 2
+        },
+        {
+          "resource_id": "live-649212773598361526-3",
+          "title": "What is version control?",
+          "url": "https://about.gitlab.com/topics/version-control",
+          "type": "ARTICLE",
+          "description": "Version control systems enable code reviews where software teams can analyze earlier versions to understand changes made to code over time. Through revision history, teams can identify who committed problem code, compare changes, and quickly revert to previous versions when confl",
+          "source": "about.gitlab.com",
+          "level": "UNKNOWN",
+          "score": 1
+        }
+      ],
+      "source_mode": "tavily"
+    },
+    "latency_ms": 5120.02
+  },
+  {
+    "step": 6,
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "get_resource_details",
+    "arguments": {
+      "resource_id": "live-5122528537983753589-1"
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "resource": {
+        "resource_id": "live-5122528537983753589-1",
+        "title": "Version Control and DevOps | Provar Documentation",
+        "url": "https://documentation.provar.com/documentation/devops/version-control/version-control-and-devops",
+        "type": "ARTICLE",
+        "description": "July 15, 2024 - In DevOps, a Version Control System gives better control over the version of the tests being scheduled without needing to amend your Build File or your Continuous Integration Server setup.",
+        "source": "documentation.provar.com",
+        "level": "UNKNOWN",
+        "score": 3
+      }
+    },
+    "latency_ms": 0.05
+  },
+  {
+    "step": 7,
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "search_resources",
+    "arguments": {
+      "query": "devops Continuous Integration (CI)",
+      "topic": "devops",
+      "level": "BEGINNER",
+      "max_results": 3
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "query": "devops Continuous Integration (CI)",
+      "topic": "devops",
+      "results": [
+        {
+          "resource_id": "live-6806440600436135441-1",
+          "title": "Devops CI: Continuous Integration in DevOps | BrowserStack",
+          "url": "https://www.browserstack.com/guide/devops-ci-in-devops",
+          "type": "ARTICLE",
+          "description": "### Defining the term: DevOps CI\n\nContinuous integration (CI) is a pillar of the DevOps pipelines and an integral component of agile development workflows. This strategy aims to reduce the number and complexity of merge conflicts by performing frequent mainline pushes. Once code ",
+          "source": "www.browserstack.com",
+          "level": "UNKNOWN",
+          "score": 3
+        },
+        {
+          "resource_id": "live-7491988219639667216-2",
+          "title": "Devops CI: Continuous Integration in DevOps | by Sourojit Das | DevOps.dev",
+          "url": "https://medium.com/@sourojitdas/devops-ci-continuous-integration-in-devops-7e6de8997908",
+          "type": "ARTICLE",
+          "description": "Title: Devops CI: Continuous Integration in DevOps | by Sourojit Das | DevOps.dev\nContinuous integration (CI) is an essential component of DevOps pipelines and agile development workflows. Once code has been integrated and tested, it is updated on local machines with frequent pul",
+          "source": "medium.com",
+          "level": "UNKNOWN",
+          "score": 2
+        },
+        {
+          "resource_id": "live-2927720629938504561-3",
+          "title": "The Role of Continuous Integration and Continuous Deployment (CI/CD) in DevOps",
+          "url": "https://hackread.com/continuous-integration-continuous-deployment-ci-cd-devops",
+          "type": "ARTICLE",
+          "description": "Title: The Role of Continuous Integration and Continuous Deployment (CI/CD) in DevOps\nThe Role of Continuous Integration and Continuous Deployment (CI/CD) in DevOps. # The Role of Continuous Integration and Continuous Deployment (CI/CD) in DevOps. Modern software development dema",
+          "source": "hackread.com",
+          "level": "UNKNOWN",
+          "score": 1
+        }
+      ],
+      "source_mode": "tavily"
+    },
+    "latency_ms": 6029.33
+  },
+  {
+    "step": 8,
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "search_resources",
+    "arguments": {
+      "query": "devops Continuous Deployment (CD)",
+      "topic": "devops",
+      "level": "BEGINNER",
+      "max_results": 3
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "query": "devops Continuous Deployment (CD)",
+      "topic": "devops",
+      "results": [
+        {
+          "resource_id": "live-4940590475598104811-1",
+          "title": "DevOps and Continuous Integration and Continuous Deployment",
+          "url": "https://codefinity.com/blog/DevOps-and-Continuous-Integration-and-Continuous-Deployment",
+          "type": "ARTICLE",
+          "description": "By adhering to CI practices, development teams can streamline their workflows, improve code quality, and deliver software with greater confidence.\n\n## Continuous Deployment (CD)\n\nContinuous Deployment (CD) is a key practice in the DevOps methodology, focusing on automating the re",
+          "source": "codefinity.com",
+          "level": "UNKNOWN",
+          "score": 3
+        },
+        {
+          "resource_id": "live-7290918271353370780-2",
+          "title": "Continuous Deployment: An Essential Guide [Tools, Advantages]",
+          "url": "https://www.openxcell.com/blog/continuous-deployment",
+          "type": "ARTICLE",
+          "description": "##### Key Takeaways\n\n Continuous Deployment or CD is a software release process that utilizes automated testing to authenticate the changes in the codebase.\n Since we know that continuous deployment is, let’s try to figure out how continuous deployment works?\n Deployment in DevOp",
+          "source": "www.openxcell.com",
+          "level": "UNKNOWN",
+          "score": 2
+        },
+        {
+          "resource_id": "live-7342386423823534518-3",
+          "title": "What Is CI/CD? Complete 2026 Guide",
+          "url": "https://octopus.com/devops/ci-cd",
+          "type": "ARTICLE",
+          "description": "CI/CD, or Continuous Integration/Continuous Delivery, is a software development practice that automates the process of building, testing, and deploying code. It’s a key part of the DevOps toolchain.\n\nCI/CD is made up of two main parts:\n\n Continuous Integration (CI): Developers me",
+          "source": "octopus.com",
+          "level": "UNKNOWN",
+          "score": 1
+        }
+      ],
+      "source_mode": "tavily"
+    },
+    "latency_ms": 4322.94
+  },
+  {
+    "step": 9,
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "search_resources",
+    "arguments": {
+      "query": "devops Infrastructure as Code (IaC)",
+      "topic": "devops",
+      "level": "BEGINNER",
+      "max_results": 3
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "query": "devops Infrastructure as Code (IaC)",
+      "topic": "devops",
+      "results": [
+        {
+          "resource_id": "live-8077423111007889308-1",
+          "title": "Infrastructure as Code (IaC): A Guide for DevOps & Developers | Cortex",
+          "url": "https://www.cortex.io/post/infrastructure-as-code",
+          "type": "ARTICLE",
+          "description": "## What is infrastructure as code?\n\nInfrastructure as code (IaC) is the practice of managing and provisioning computing infrastructure using configuration languages. Rather than relying on manual processes, such as physical hardware configuration or configuration tools, IaC uses ",
+          "source": "www.cortex.io",
+          "level": "UNKNOWN",
+          "score": 3
+        },
+        {
+          "resource_id": "live-5580182391321876246-2",
+          "title": "What Is Infrastructure as Code (IaC)? | IBM",
+          "url": "https://www.ibm.com/think/topics/infrastructure-as-code",
+          "type": "ARTICLE",
+          "description": "# What is infrastructure as code (IaC)?\n\nPublished 29 September 2025\n\nIsometric illustration of a laptop on top of a server rack in a dark server room\n\nBy Jim Holdsworth and Annie Badman\n\n## Infrastructure as code, defined\n\nInfrastructure as code (IaC) is a DevOps practice that a",
+          "source": "www.ibm.com",
+          "level": "UNKNOWN",
+          "score": 2
+        },
+        {
+          "resource_id": "live-6065456520552068644-3",
+          "title": "What is infrastructure as code (IaC)? - Azure DevOps | Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code",
+          "type": "ARTICLE",
+          "description": "# What is infrastructure as code (IaC)?\n\nInfrastructure as code (IaC) uses DevOps methodology and versioning with a descriptive model to define and deploy infrastructure, such as networks, virtual machines, load balancers, and connection topologies. Just as the same source code a",
+          "source": "learn.microsoft.com",
+          "level": "UNKNOWN",
+          "score": 1
+        }
+      ],
+      "source_mode": "tavily"
+    },
+    "latency_ms": 4097.77
+  },
+  {
+    "step": 10,
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "search_resources",
+    "arguments": {
+      "query": "devops Monitoring and Logging",
+      "topic": "devops",
+      "level": "BEGINNER",
+      "max_results": 3
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "query": "devops Monitoring and Logging",
+      "topic": "devops",
+      "results": [
+        {
+          "resource_id": "live-2554696539490940051-1",
+          "title": "DevOps: Monitoring and Logging Explained",
+          "url": "https://medium.com/@mcgeejasond/devops-monitoring-and-logging-explained-939c3b5e17c4",
+          "type": "ARTICLE",
+          "description": "In conclusion, monitoring and logging are not just optional add-ons in the world of DevOps; they are fundamental pillars that empower teams to deliver high-quality software with speed and confidence. By implementing robust monitoring and logging practices, organizations can gain ",
+          "source": "medium.com",
+          "level": "UNKNOWN",
+          "score": 3
+        },
+        {
+          "resource_id": "live-485691704249581510-2",
+          "title": "Monitoring and Logging in DevOps",
+          "url": "https://www.oshyn.com/blog/devops-monitoring-logging",
+          "type": "ARTICLE",
+          "description": "Logging and monitoring help to identify potential performance bottlenecks by recording metrics such as user interactions and API calls. This",
+          "source": "www.oshyn.com",
+          "level": "UNKNOWN",
+          "score": 2
+        },
+        {
+          "resource_id": "live-4991942248389482836-3",
+          "title": "Monitoring & Logging in DevOps: Tools and Best Practices - DEV Community",
+          "url": "https://dev.to/yash_sonawane25/monitoring-logging-in-devops-tools-and-best-practices-5bp4",
+          "type": "ARTICLE",
+          "description": "In DevOps, real-time observability is crucial to ensure smooth operations, quick incident response, and proactive problem resolution. By implementing the right monitoring and logging strategies, teams can track system performance, detect anomalies, and troubleshoot efficiently, m",
+          "source": "dev.to",
+          "level": "UNKNOWN",
+          "score": 1
+        }
+      ],
+      "source_mode": "tavily"
+    },
+    "latency_ms": 3679.84
+  },
+  {
+    "step": 11,
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "search_resources",
+    "arguments": {
+      "query": "devops Collaboration and Communication",
+      "topic": "devops",
+      "level": "BEGINNER",
+      "max_results": 3
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "query": "devops Collaboration and Communication",
+      "topic": "devops",
+      "results": [
+        {
+          "resource_id": "live-8673240083662143413-1",
+          "title": "Medium",
+          "url": "https://medium.com/@williamwarley/a-complete-guide-to-devops-revolutionizing-collaboration-and-efficiency-5076d5b4a052",
+          "type": "ARTICLE",
+          "description": "Culture: Collaboration and CommunicationCollaboration and Communication:  \n- DevOps culture emphasizes the importance of collaboration and communication between development and operations teams. It encourages a shared responsibility for the software lifecycle, fostering an enviro",
+          "source": "medium.com",
+          "level": "UNKNOWN",
+          "score": 3
+        },
+        {
+          "resource_id": "live-5192491488694956317-2",
+          "title": "What is DevOps?",
+          "url": "https://aws.amazon.com/devops/what-is-devops",
+          "type": "ARTICLE",
+          "description": "## Communication and Collaboration\n\nIncreased communication and collaboration in an organization is one of the key cultural aspects of DevOps. The use of DevOps tooling and automation of the software delivery process establishes collaboration by physically bringing together the w",
+          "source": "aws.amazon.com",
+          "level": "UNKNOWN",
+          "score": 2
+        },
+        {
+          "resource_id": "live-5504044183255451208-3",
+          "title": "What's the Importance of Collaboration in DevOps",
+          "url": "https://dev.to/addwebsolutionpvtltd/whats-the-importance-of-collaboration-in-devops-28a7",
+          "type": "ARTICLE",
+          "description": "Collaboration in DevOps bridges this gap by creating a culture of shared responsibility, continuous communication, and joint problem-solving.",
+          "source": "dev.to",
+          "level": "UNKNOWN",
+          "score": 1
+        }
+      ],
+      "source_mode": "tavily"
+    },
+    "latency_ms": 2967.22
+  },
+  {
+    "step": 12,
+    "action_type": "VALIDATE_ROADMAP",
+    "roadmap_id": "roadmap_c0a5e88dcd",
+    "output": {
+      "nodes": 9,
+      "edges": 12
+    },
+    "latency_ms": 0.04
+  },
+  {
+    "step": 13,
+    "action_type": "SAVE_ROADMAP",
+    "roadmap_id": "roadmap_c0a5e88dcd",
+    "output": {
+      "status": "DRAFT",
+      "storage": "/home/ducanh/Documents/AI20K/Lab/Day 3/K4-DAY03-DaoDucAnh-2A202602567/data/roadmaps.json"
+    },
+    "latency_ms": 1.42
+  },
+  {
+    "step": 14,
     "action_type": "FINAL_ANSWER",
-    "thought": "Tổng hợp kết quả từ MCP Server thành công.",
-    "output": "Chưa thể trả lời chi tiết do chưa nhận được dữ liệu từ MCP Server (hãy hoàn thành TODO 2.1).",
-    "latency_ms": 10.0
+    "roadmap_id": "roadmap_c0a5e88dcd",
+    "output": {
+      "title": "Beginner DevOps Learning Roadmap",
+      "lesson_count": 7,
+      "checkpoint_count": 2
+    },
+    "thought": "Return a persisted draft roadmap with deterministic checkpoint state."
   }
 ]

@@ -1,0 +1,334 @@
+{
+  "roadmap_c0a5e88dcd": {
+    "roadmapId": "roadmap_c0a5e88dcd",
+    "title": "Beginner DevOps Learning Roadmap",
+    "topic": "devops",
+    "goal": "Learn the fundamentals of DevOps practices and tools.",
+    "level": "BEGINNER",
+    "status": "ACTIVE",
+    "constraints": {
+      "hoursPerDay": 4.0,
+      "deadlineWeeks": 5
+    },
+    "nodes": [
+      {
+        "id": "lesson_01",
+        "type": "LESSON",
+        "title": "Introduction to DevOps",
+        "description": "Understanding the core principles and benefits of DevOps.",
+        "order": 1,
+        "prerequisites": [],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Introduction To DevOps",
+            "url": "https://www.igmguru.com/blog/introduction-to-devops",
+            "type": "ARTICLE",
+            "description": "## What is DevOps?\n\nLet's discuss what is DevOps in this 'Introduction To DevOps' guide. DevOps is a worldly known and popular methodology. It combines development and operations to improve efficiency, speed and collaboration in the delivery of high-quality software. It mends the",
+            "source": "www.igmguru.com"
+          },
+          {
+            "title": "Introduction to DevOps - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/devops/introduction-to-devops",
+            "type": "ARTICLE",
+            "description": "geeksforgeeks\n\nsearch icon\n\n Interview Prep\n\n DevOps\n Cloud Computing\n Git\n AWS\n Docker\n Kubernetes\n Microsoft Azure\n Google Cloud Platform\n Python\n Golang\n Operating System\n Computer Network\n\n# Introduction to DevOps\n\nLast Updated : 4 Jul, 2026\n\nDevOps is a modern approach to so",
+            "source": "www.geeksforgeeks.org"
+          }
+        ],
+        "learningObjectives": [
+          "Define DevOps and its importance in software development.",
+          "Identify key DevOps practices and methodologies."
+        ],
+        "estimatedMinutes": 90
+      },
+      {
+        "id": "lesson_02",
+        "type": "LESSON",
+        "title": "Version Control Systems",
+        "description": "Learn how to use version control systems to manage code.",
+        "order": 2,
+        "prerequisites": [
+          "lesson_01"
+        ],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Version Control and DevOps | Provar Documentation",
+            "url": "https://documentation.provar.com/documentation/devops/version-control/version-control-and-devops",
+            "type": "ARTICLE",
+            "description": "July 15, 2024 - In DevOps, a Version Control System gives better control over the version of the tests being scheduled without needing to amend your Build File or your Continuous Integration Server setup.",
+            "source": "documentation.provar.com"
+          },
+          {
+            "title": "Medium",
+            "url": "https://medium.com/@smitgabani/version-control-source-control-platforms-and-their-role-in-devops-3d115e06a10d",
+            "type": "ARTICLE",
+            "description": "Sign up\n\nSign in\n\nSign up\n\nSign in\n\nUnknown user\n\n# Version Control, Source Control, Platforms and their role in DevOps\n\nSmit\n\n--\n\nListen\n\nShare\n\n### DevOps Part 3: Version Control Systems and their role in DevOps\n\n## What is Version control?\n\nVersion control is a systematic appr",
+            "source": "medium.com"
+          }
+        ],
+        "learningObjectives": [
+          "Understand the basics of Git and its workflow.",
+          "Learn how to create repositories and manage branches."
+        ],
+        "estimatedMinutes": 120
+      },
+      {
+        "id": "lesson_03",
+        "type": "LESSON",
+        "title": "Continuous Integration (CI)",
+        "description": "Explore the concept of continuous integration and its tools.",
+        "order": 3,
+        "prerequisites": [
+          "lesson_02"
+        ],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Devops CI: Continuous Integration in DevOps | BrowserStack",
+            "url": "https://www.browserstack.com/guide/devops-ci-in-devops",
+            "type": "ARTICLE",
+            "description": "### Defining the term: DevOps CI\n\nContinuous integration (CI) is a pillar of the DevOps pipelines and an integral component of agile development workflows. This strategy aims to reduce the number and complexity of merge conflicts by performing frequent mainline pushes. Once code ",
+            "source": "www.browserstack.com"
+          },
+          {
+            "title": "Devops CI: Continuous Integration in DevOps | by Sourojit Das | DevOps.dev",
+            "url": "https://medium.com/@sourojitdas/devops-ci-continuous-integration-in-devops-7e6de8997908",
+            "type": "ARTICLE",
+            "description": "Title: Devops CI: Continuous Integration in DevOps | by Sourojit Das | DevOps.dev\nContinuous integration (CI) is an essential component of DevOps pipelines and agile development workflows. Once code has been integrated and tested, it is updated on local machines with frequent pul",
+            "source": "medium.com"
+          }
+        ],
+        "learningObjectives": [
+          "Define continuous integration and its benefits.",
+          "Set up a simple CI pipeline using a tool like Jenkins or GitHub Actions."
+        ],
+        "estimatedMinutes": 150
+      },
+      {
+        "id": "checkpoint_01",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 1",
+        "description": "Validate progress across Introduction to DevOps; Version Control Systems; Continuous Integration (CI) for the devops roadmap.",
+        "order": 4,
+        "prerequisites": [
+          "lesson_01",
+          "lesson_02",
+          "lesson_03"
+        ],
+        "status": "LOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      },
+      {
+        "id": "lesson_04",
+        "type": "LESSON",
+        "title": "Continuous Deployment (CD)",
+        "description": "Learn about continuous deployment and how to automate releases.",
+        "order": 5,
+        "prerequisites": [
+          "checkpoint_01"
+        ],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "DevOps and Continuous Integration and Continuous Deployment",
+            "url": "https://codefinity.com/blog/DevOps-and-Continuous-Integration-and-Continuous-Deployment",
+            "type": "ARTICLE",
+            "description": "By adhering to CI practices, development teams can streamline their workflows, improve code quality, and deliver software with greater confidence.\n\n## Continuous Deployment (CD)\n\nContinuous Deployment (CD) is a key practice in the DevOps methodology, focusing on automating the re",
+            "source": "codefinity.com"
+          },
+          {
+            "title": "Continuous Deployment: An Essential Guide [Tools, Advantages]",
+            "url": "https://www.openxcell.com/blog/continuous-deployment",
+            "type": "ARTICLE",
+            "description": "##### Key Takeaways\n\n Continuous Deployment or CD is a software release process that utilizes automated testing to authenticate the changes in the codebase.\n Since we know that continuous deployment is, let’s try to figure out how continuous deployment works?\n Deployment in DevOp",
+            "source": "www.openxcell.com"
+          }
+        ],
+        "learningObjectives": [
+          "Understand the differences between CI and CD.",
+          "Implement a basic CD pipeline for automated deployments."
+        ],
+        "estimatedMinutes": 150
+      },
+      {
+        "id": "lesson_05",
+        "type": "LESSON",
+        "title": "Infrastructure as Code (IaC)",
+        "description": "Introduction to managing infrastructure using code.",
+        "order": 6,
+        "prerequisites": [
+          "lesson_04"
+        ],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Infrastructure as Code (IaC): A Guide for DevOps & Developers | Cortex",
+            "url": "https://www.cortex.io/post/infrastructure-as-code",
+            "type": "ARTICLE",
+            "description": "## What is infrastructure as code?\n\nInfrastructure as code (IaC) is the practice of managing and provisioning computing infrastructure using configuration languages. Rather than relying on manual processes, such as physical hardware configuration or configuration tools, IaC uses ",
+            "source": "www.cortex.io"
+          },
+          {
+            "title": "What Is Infrastructure as Code (IaC)? | IBM",
+            "url": "https://www.ibm.com/think/topics/infrastructure-as-code",
+            "type": "ARTICLE",
+            "description": "# What is infrastructure as code (IaC)?\n\nPublished 29 September 2025\n\nIsometric illustration of a laptop on top of a server rack in a dark server room\n\nBy Jim Holdsworth and Annie Badman\n\n## Infrastructure as code, defined\n\nInfrastructure as code (IaC) is a DevOps practice that a",
+            "source": "www.ibm.com"
+          }
+        ],
+        "learningObjectives": [
+          "Define Infrastructure as Code and its advantages.",
+          "Learn to use tools like Terraform or AWS CloudFormation."
+        ],
+        "estimatedMinutes": 180
+      },
+      {
+        "id": "lesson_06",
+        "type": "LESSON",
+        "title": "Monitoring and Logging",
+        "description": "Understand the importance of monitoring and logging in DevOps.",
+        "order": 7,
+        "prerequisites": [
+          "lesson_05"
+        ],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "DevOps: Monitoring and Logging Explained",
+            "url": "https://medium.com/@mcgeejasond/devops-monitoring-and-logging-explained-939c3b5e17c4",
+            "type": "ARTICLE",
+            "description": "In conclusion, monitoring and logging are not just optional add-ons in the world of DevOps; they are fundamental pillars that empower teams to deliver high-quality software with speed and confidence. By implementing robust monitoring and logging practices, organizations can gain ",
+            "source": "medium.com"
+          },
+          {
+            "title": "Monitoring and Logging in DevOps",
+            "url": "https://www.oshyn.com/blog/devops-monitoring-logging",
+            "type": "ARTICLE",
+            "description": "Logging and monitoring help to identify potential performance bottlenecks by recording metrics such as user interactions and API calls. This",
+            "source": "www.oshyn.com"
+          }
+        ],
+        "learningObjectives": [
+          "Identify key metrics to monitor in a DevOps environment.",
+          "Set up basic logging and monitoring using tools like Prometheus or ELK stack."
+        ],
+        "estimatedMinutes": 120
+      },
+      {
+        "id": "checkpoint_02",
+        "type": "CHECKPOINT",
+        "title": "Checkpoint 2",
+        "description": "Validate progress across Continuous Deployment (CD); Infrastructure as Code (IaC); Monitoring and Logging for the devops roadmap.",
+        "order": 8,
+        "prerequisites": [
+          "lesson_04",
+          "lesson_05",
+          "lesson_06"
+        ],
+        "status": "LOCKED",
+        "resources": [],
+        "learningObjectives": [],
+        "estimatedMinutes": null
+      },
+      {
+        "id": "lesson_07",
+        "type": "LESSON",
+        "title": "Collaboration and Communication",
+        "description": "Learn how to foster collaboration within DevOps teams.",
+        "order": 9,
+        "prerequisites": [
+          "checkpoint_02"
+        ],
+        "status": "NOT_STARTED",
+        "resources": [
+          {
+            "title": "Medium",
+            "url": "https://medium.com/@williamwarley/a-complete-guide-to-devops-revolutionizing-collaboration-and-efficiency-5076d5b4a052",
+            "type": "ARTICLE",
+            "description": "Culture: Collaboration and CommunicationCollaboration and Communication:  \n- DevOps culture emphasizes the importance of collaboration and communication between development and operations teams. It encourages a shared responsibility for the software lifecycle, fostering an enviro",
+            "source": "medium.com"
+          },
+          {
+            "title": "What is DevOps?",
+            "url": "https://aws.amazon.com/devops/what-is-devops",
+            "type": "ARTICLE",
+            "description": "## Communication and Collaboration\n\nIncreased communication and collaboration in an organization is one of the key cultural aspects of DevOps. The use of DevOps tooling and automation of the software delivery process establishes collaboration by physically bringing together the w",
+            "source": "aws.amazon.com"
+          }
+        ],
+        "learningObjectives": [
+          "Understand the role of communication tools in DevOps.",
+          "Explore best practices for team collaboration and feedback."
+        ],
+        "estimatedMinutes": 90
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge_lesson_01_to_lesson_02",
+        "source": "lesson_01",
+        "target": "lesson_02"
+      },
+      {
+        "id": "edge_lesson_02_to_lesson_03",
+        "source": "lesson_02",
+        "target": "lesson_03"
+      },
+      {
+        "id": "edge_lesson_01_to_checkpoint_01",
+        "source": "lesson_01",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_02_to_checkpoint_01",
+        "source": "lesson_02",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_lesson_03_to_checkpoint_01",
+        "source": "lesson_03",
+        "target": "checkpoint_01"
+      },
+      {
+        "id": "edge_checkpoint_01_to_lesson_04",
+        "source": "checkpoint_01",
+        "target": "lesson_04"
+      },
+      {
+        "id": "edge_lesson_04_to_lesson_05",
+        "source": "lesson_04",
+        "target": "lesson_05"
+      },
+      {
+        "id": "edge_lesson_05_to_lesson_06",
+        "source": "lesson_05",
+        "target": "lesson_06"
+      },
+      {
+        "id": "edge_lesson_04_to_checkpoint_02",
+        "source": "lesson_04",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_05_to_checkpoint_02",
+        "source": "lesson_05",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_lesson_06_to_checkpoint_02",
+        "source": "lesson_06",
+        "target": "checkpoint_02"
+      },
+      {
+        "id": "edge_checkpoint_02_to_lesson_07",
+        "source": "checkpoint_02",
+        "target": "lesson_07"
+      }
+    ],
+    "createdAt": "2026-09-13T04:52:05.956224+00:00",
+    "updatedAt": "2026-09-13T04:52:20.802943+00:00"
+  }
+}
